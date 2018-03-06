@@ -1,0 +1,9 @@
+<!--pages/welcome/welcome.wxml 是小程序的骨架文件-->
+<!--div-->
+<view class="container">
+    <image class="user-avator" src="/images/tou.jpg" ></image>
+    <text class="user-name"><text style="color:red;">Hello</text>,GUO</text>
+    <view class="moto-container" bindtap="onTap">
+        <text class="moto">开启小程序之旅</text>
+    </view>
+</view>

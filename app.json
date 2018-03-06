@@ -1,0 +1,29 @@
+{
+  "pages":[
+   
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/welcome/welcome"
+  ],
+   "window":{
+      "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/movies/movies",
+      "text": "电影",
+      "iconPath":"images/tab/yuedu.png",
+      "selectedIconPath":"/images/tab/yuedu_hl.png"
+    },{
+      "pagePath": "pages/posts/post",
+      "text": "阅读",
+      "iconPath":"images/tab/dianying.png",
+      "selectedIconPath":"/images/tab/dianying_hl.png"
+    }],
+    "borderStyle":"white",
+    "selectedColor":"#405f80"
+  }
+}

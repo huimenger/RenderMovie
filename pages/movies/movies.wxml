@@ -1,0 +1,23 @@
+<import src="movie-list/movie-list-template.wxml" />
+<import src="movie-grid/movie-grid-template.wxml" />
+<view class="search">
+  <icon type="search" class="search-icon" size="13" color="#405f80"></icon>
+  <input type="text" placeholder="功夫瑜伽" placeholder-class="placeholder" bindfocus="onBindFocus" bindchange="onBingChange" />
+  <image wx:if="{{ srearchPanelShow }}" src="/images/icon/xx.png" bindtap="onCanceImgTap"></image>
+</view>
+<view class="container" wx:if="{{ containerShow }}">
+  <view class="movie-template">
+    <template is="movieListTemplate" data="{{ ...isTheaters }}" />
+  </view>
+  <view class="movie-template">
+    <template is="movieListTemplate" data="{{ ...comingSoon }}" />
+  </view>
+  <view class="movie-template">
+    <template is="movieListTemplate" data="{{ ...top250 }}" />
+  </view>
+</view>
+<view class="search-panel" wx:if="{{ srearchPanelShow }}">
+  <view class="simple-movie-container">
+    <template is="movieGridTemplate" data="{{ ...searchResult }}"></template>
+  </view>
+</view>
