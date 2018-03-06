@@ -8,6 +8,6 @@
 > 官方文档：[小程序](https://mp.weixin.qq.com/debug/wxadoc/dev/);
 
 ### 上图
-![效果图片](www.arashi.com.cn/jsdemo/RenderMovie/GIF.gif)
+![效果图片](https://www.arashi.com.cn/jsdemo/RenderMovie/GIF.gif)
 
 
